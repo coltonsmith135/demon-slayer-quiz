@@ -1,0 +1,13 @@
+need a timer
+  needs to count down
+    also needs to subtract time away if the answer is incorrect
+
+need arrays of values that are the possible answers for the questions
+    need to make these possible answers buttons
+       correct and wrong responses if the answer clicked is correct or wrong
+
+need a start button, submit button, go back button, and clear highscore button
+     submit button needs to store the score into the local storage
+       clear high score button needs to clear the stored score
+
+need a text bar that lets the user type their initials.           
