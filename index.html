@@ -6,108 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon Slayer Quiz</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
     <header>
         <h4 class="time" style="text-align: right;"></h4>
     </header>
+    <div id="intro" class="title">Demon Slayer Quiz!</br>
+ Test your knowledge of the anime Demon Slayer! you will have 60 seconds to answer the following questions and incorrect answers will decrease you're time by 15 seconds.</div>
     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
+        <div id="question-container" class="hide">
+            <div id="question">question</div>
         <div id="answer-buttons" class="button-list">
             <button class="btn">Tanjiro</button>
             <button class="btn">Inoskue</button>
             <button class="btn">Muzan</button>
             <button class="btn">Nezuko</button>
+            <h4 class="correct">Correct</h4>
+            <h4 class="wrong">Wrong</h4>
         </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
+    </div>
+        <div class="controls">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="submit-btn" class="btn hide">Submit</button>
+            <button id="clear-btn"class= "btn hide">Clear highscores</button>
+            <button id="back-btn" class="btn hide">Go back</button>
         </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
-        </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
-        </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
-        </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
-        </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-            <button class="btn">Tanjiro</button>
-            <button class="btn">Inoskue</button>
-            <button class="btn">Muzan</button>
-            <button class="btn">Nezuko</button>
-        </div>
-
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-          <div id="answer-buttons" class="button-list">
-              <button class="btn">Tanjiro</button>
-              <button class="btn">Inoskue</button>
-              <button class="btn">Muzan</button>
-              <button class="btn">Nezuko</button>
-          </div>
-     <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-        <div id="answer-buttons" class="button-list">
-               <button class="btn">Tanjiro</button>
-               <button class="btn">Inoskue</button>
-               <button class="btn">Muzan</button>
-               <button class="btn">Nezuko</button>
-        </div>
-              
-        <div class="container">
-        <div id="question">____ is the main character in Demon Slayer.</div>
-            <div id="answer-buttons" class="button-list">
-               <button class="btn">Tanjiro</button>
-               <button class="btn">Inoskue</button>
-               <button class="btn">Muzan</button>
-               <button class="btn">Nezuko</button>
-            </div>
-                            <div class="controls">
-                                <button id="start-btn">Start</button>
-                                <button id="submit-btn">Submit</button>
-                                <button id="clear-btn">Clear highscores</button>
-                                <button id="back-btn">Go back</button>
-                            </div>
-                            <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

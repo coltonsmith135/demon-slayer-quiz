@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 70vh;
+    width: 100vw; 
+}
+
+.btn {
+    border-color: purple;
+    border-radius: 5px;   
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    box-shadow: 0 0 10px 2px;   
+}
+
+.button-list {
+    gap: 10px;
+}
+.button-list {
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.time {
+    display: block;
+}
