@@ -9,7 +9,7 @@ I built this project because I thought it would be a fun way to see how much peo
 
 In doing this project i learned how to make elements appear and also hide after certain actions, as well as make properly working functions and set a timer on my webpage. I also learned how to create an array of objects and be able to pull them and randomize them as well.
 
+https://coltonsmith135.github.io/demon-slayer-quiz/
 
-
-
+![Demon Slayer Quiz](assets/demon-slayer.png)
 
