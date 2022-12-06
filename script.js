@@ -15,8 +15,9 @@ var timeEl = document.querySelector(".time");
 var timeLeft = 60;
 var scoreEl = document.querySelector(".highscores");
 var initials = [""];
-
 let shuffledQuestions, currentQuestionIndex;
+
+//start button listener as well as the function that it runs
 
 startBtn.addEventListener("click", startGame);
 
@@ -32,6 +33,8 @@ function startGame() {
    nextQuestion();
 }
 
+// goes to next question
+
 nextBtn.addEventListener("click", () => {
    currentQuestionIndex++;
    nextQuestion();
@@ -43,6 +46,7 @@ function nextQuestion() {
 }
 
 
+// function that grabs each question and also randomizes them
 
 function showQuestion(question) {
    questionEl.innerText = question.question;
@@ -116,7 +120,7 @@ function erase() {
 
 
 
-
+// This is my array of objects that hold all of my questions, answers, as well as true and false responses
 
 const question = [
    {
